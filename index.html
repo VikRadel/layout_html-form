@@ -33,7 +33,7 @@
         type="number" id="age"
         name="age"
         min="12"
-        max="80"
+        max="100"
         value="12"
       >
       <br>
@@ -84,7 +84,7 @@
       >
       <label for="radio-yes">Yes</label>
       <input
-        class="input-spacing"
+        class="input-bigger-spacing"
         type="radio"
         id="radio-no"
         name="radio-cats"
@@ -108,18 +108,18 @@
         step="2"
       >
       <br>
-      <label for="cars-brand">What are your favorite brand of cars?</label>
-      <select
-        class="input-spacing"
-        id="cars-brand"
-        name="cars-brand"
-        size="4"
-      >
-        <option value="bmw">BMW</option>
-        <option value="audi">Audi</option>
-        <option value="lada">Lada</option>
-      </select>
-      <br>
+      <div class="input-spacing">
+        <label for="cars-brand">What are your favorite brand of cars?</label>
+        <select
+          id="cars-brand"
+          name="cars-brand"
+          size="4"
+        >
+          <option value="bmw">BMW</option>
+          <option value="audi">Audi</option>
+          <option value="lada">Lada</option>
+        </select>
+      </div>
       <label for="work-rating">How do you rate our work?</label>
       <input
         type="range"
@@ -130,13 +130,13 @@
     </fieldset>
     <fieldset class="box-spacing">
       <legend>Additional info:</legend>
-      <label for="comment">Comments:</label>
-      <textarea
-        name="comment"
-        id="comment"
-        class="input-spacing"
-      ></textarea>
-      <br>
+      <div class="input-spacing">
+        <label for="comment">Comments:</label>
+        <textarea
+          name="comment"
+          id="comment"
+        ></textarea>
+      </div>
       <label for="would-recommend">Would you recommend us?</label>
       <select
         name="would-recommend"
